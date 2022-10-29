@@ -1,26 +1,35 @@
-# MVC-Exit Exam 1/65 (29/oct/2022)
+# vue3-prac1
 
-63050137 Tanawan Wongphetcharat
-Computer Science , KMITL
+This template should help get you started developing with Vue 3 in Vite.
 
-## Framework
+## Recommended IDE Setup
 
-Vue3 + Vuetify3 Library + json-server + Axios
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
+```sh
 npm install
+```
 
 ### Compile and Hot-Reload for Development
 
-npm run db:serve  
+```sh
+npm run dev
+```
 
-npm run dev  
+### Compile and Minify for Production
 
-## MVVM Design Pattern
+```sh
+npm run build
+```
 
-Model - คือส่วนที่ข้อมูลไหลเข้าออกระหว่าง database และ application ส่วนนี้ใช้ Pinia ในการจัดการ state และ Axios ในการทำ HTTP Request ข้อมูลจาก json-sever ส่วนนี้อยู่ใน store/index.js  
+### Lint with [ESLint](https://eslint.org/)
 
-View - คือส่วนที่ใช้ในการแสดงผล โดยใช้ HTTP ประกอบด้วย Vuetify library ช่วยในเรื่องความสวยงาม ส่วนนี้อยู่ใน views/*.vue
-
-ViewModel - คือส่วนที่เชื่อมประสาน Model กับ View เข้าด้วยกัน  ส่วนนี้อยู่ใน main.js 
+```sh
+npm run lint
+```
