@@ -1,19 +1,40 @@
 {
-  "posts": [
+  "feedback": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "fname": "John",
+      "lname": "Doe",
+      "email": "john@gmail.com",
+      "suggest": "I like this app",
+      "timestamp": "2014-03-12 12:00:00",
+      "status": "close",
+      "id": "1"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "fname": "John",
+      "lname": "Doe",
+      "email": "tee@gmail.com",
+      "suggest": "I like this app",
+      "timestamp": "2014-03-12 12:00:00",
+      "status": "open",
+      "id": "2"
+    },
+    {
+      "fname": "Jom",
+      "lname": "Jam",
+      "email": "jomjam@kmitl.ac.th",
+      "suggest": "This is bad",
+      "timestamp": "29/10/2022, 11:21:37",
+      "status": "open",
+      "id": "I7RzX31"
+    },
+    {
+      "fname": "peipei",
+      "lname": "tanawan",
+      "email": "pei@gmail.com",
+      "suggest": "a nice",
+      "timestamp": "10/29/2022, 12:27:50 PM",
+      "status": "open",
+      "id": "iNrUmE7"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
