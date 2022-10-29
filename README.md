@@ -13,6 +13,6 @@ npm install
 
 ### Compile and Hot-Reload for Development
 
-npm run db:serve. 
+npm run db:serve  
 
-npm run dev. 
+npm run dev  
